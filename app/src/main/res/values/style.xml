@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bottom_menu">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="actionBarItemBackground">@color/purple_500</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="CustomDropDownTilStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:textColorHint">#9797A2</item>
+        <item name="hintTextColor">@color/textcolor</item>
+        <item name="android:textSize">16sp</item>
+        <item name="boxStrokeColor">@color/textcolor</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/textcolor</item>
+        <item name="colorControlHighlight">@color/textcolor</item>
+        <item name="boxCornerRadiusBottomEnd">3dp</item>
+        <item name="boxCornerRadiusBottomStart">3dp</item>
+        <item name="boxCornerRadiusTopEnd">3dp</item>
+        <item name="boxCornerRadiusTopStart">3dp</item>
+    </style>
+</resources>

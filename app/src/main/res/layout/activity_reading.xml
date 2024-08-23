@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Reading_Activity">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/homeLayout">
+      <androidx.core.widget.NestedScrollView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+         android:id="@+id/id_scroll">
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="0dp"
+             android:layout_marginLeft="20dp"
+             android:layout_marginRight="20dp"
+            android:id="@+id/detailsid">
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/readingtext"
+             android:textAlignment="center"
+             android:textSize="20sp"
+             android:layout_alignParentTop="true"
+             android:layout_marginTop="20dp"
+             android:textStyle="bold"
+             android:text="Projects Available"/>
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_view_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/readingtext"
+                android:background="@color/white"
+                >
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical"
+                  android:id="@+id/shimerlay">
+                  <include layout="@layout/shimmer_layout"/>
+                  <include layout="@layout/shimmer_layout"/>
+                  <include layout="@layout/shimmer_layout"/>
+                  <include layout="@layout/shimmer_layout"/>
+               </LinearLayout>
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+         <androidx.recyclerview.widget.RecyclerView
+             android:id="@+id/productlist"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/readingtext"
+             android:layout_alignParentEnd="true"
+             android:layout_marginTop="10dp"
+             android:layout_marginBottom="10dp"
+             android:background="@drawable/listview"
+             android:clickable="true"
+             android:focusable="true"
+             android:paddingBottom="0dp" />
+          </RelativeLayout>
+      </androidx.core.widget.NestedScrollView>
+
+   </RelativeLayout>
+   <LinearLayout
+       android:id="@+id/homenoConnection"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@color/white"
+       android:orientation="vertical"
+       android:visibility="gone">
+
+      <ImageView
+          android:id="@+id/warningImage"
+          android:layout_width="match_parent"
+          android:layout_height="100dp"
+          android:layout_marginLeft="40dp"
+          android:layout_marginTop="200dp"
+          android:layout_marginRight="40dp"
+          android:contentDescription="TODO"
+          android:src="@drawable/outline_phonelink" />
+
+      <TextView
+          android:id="@+id/warningView"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="40dp"
+          android:layout_marginRight="40dp"
+          android:text="You are disconnected"
+          android:textAlignment="center"
+          android:textColor="@color/textcolor"
+          android:textSize="16sp" />
+
+      <Button
+          android:id="@+id/reloadbutton"
+          style="?android:attr/borderlessButtonStyle"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="40dp"
+          android:layout_marginRight="40dp"
+          android:drawablePadding="20dp"
+          android:padding="0dp"
+          android:textAlignment="center"
+          android:textAllCaps="false"
+          android:textSize="17sp"
+          android:text="Please reconnect and try again!"
+          android:textColor="@color/purple_500" />
+   </LinearLayout>
+</RelativeLayout>

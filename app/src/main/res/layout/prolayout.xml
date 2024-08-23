@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="0dp"
+    app:cardElevation="1dp"
+    app:elevation="1dp"
+    android:foreground="?selectableItemBackgroundBorderless"
+    android:id="@+id/parent_layout"
+    app:cardUseCompatPadding="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:id="@+id/productid">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:id="@+id/textLayout"
+            tools:ignore="UselessParent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/purple_500"
+                android:textSize="16sp"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:text="The Ethiopian History Full of chaos and mass distruction"
+                android:textAlignment="textStart"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:id="@+id/title"/>
+
+            <TextView
+                android:id="@+id/abstract_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="The Ethiopian History Full of chaos and mass distruction where all ethiopian history was faile countries state history"
+                android:textAlignment="gravity"
+                android:textColor="@color/textcolor"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@id/abstract_id"
+                android:orientation="horizontal"
+                android:id="@+id/protype_layout">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:textColor="@color/purple_500"
+                    android:text="Project Type"
+                    android:id="@+id/projectname"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Semester Project"
+                    android:layout_marginTop="3dp"
+                    android:textColor="@color/purple_500"
+                    android:textSize="14sp"
+                    android:id="@+id/project_id"/>
+            </LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="10dp"
+                android:textAllCaps="false"
+                android:background="?android:attr/selectableItemBackground"
+                android:id="@+id/download_btn"
+                android:layout_below="@id/protype_layout"
+                android:text="Download"
+                android:drawableLeft="@drawable/download_24"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/purple_500"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

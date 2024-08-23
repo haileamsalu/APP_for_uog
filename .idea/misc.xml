@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/Uselogin/app/src/main/res/drawable/attach_file.xml" value="0.1" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/Uselogin/app/src/main/res/drawable/backround_footer.xml" value="0.124" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/Uselogin/app/src/main/res/drawable/download_24.xml" value="0.124" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/Uselogin/app/src/main/res/drawable/ic_baseline_attach_file_24.xml" value="0.124" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/Uselogin/app/src/main/res/drawable/ic_launcher_background.xml" value="0.124" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/Uselogin/app/src/main/res/drawable/listview.xml" value="0.124" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/Uselogin/app/src/main/res/drawable/progress_background.xml" value="0.124" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/Uselogin/app/src/main/res/drawable/textborder.xml" value="0.1" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/Uselogin/app/src/main/res/drawable/transparent_backgroud.xml" value="0.1" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/Uselogin/app/src/main/res/drawable/uog_logo_background.xml" value="0.124" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/Uselogin/app/src/main/res/layout/activity_feed.xml" value="0.2367601246105919" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/Uselogin/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/Uselogin/app/src/main/res/layout/activity_reading.xml" value="0.22662677636499626" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/Uselogin/app/src/main/res/layout/fragment_semester.xml" value="0.5" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/Uselogin/app/src/main/res/layout/fragment_thes.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/Uselogin/app/src/main/res/layout/prolayout.xml" value="0.33" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/Uselogin/app/src/main/res/layout/shimmer_layout.xml" value="0.1578125" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/Uselogin/app/src/main/res/layout/toolbar.xml" value="0.1" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/Uselogin/app/src/main/res/menu/bottom_nav.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/Uselogin/app/src/main/res/menu/threedots_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/Uselogin/app/src/main/res/mipmap-anydpi-v26/uog_logo.xml" value="0.124" />
+        <entry key="..\:/Users/user/Desktop/Uselogin/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.165" />
+        <entry key="..\:/Users/user/Desktop/Uselogin/app/src/main/res/drawable/about_H_background.xml" value="0.165" />
+        <entry key="..\:/Users/user/Desktop/Uselogin/app/src/main/res/drawable/about_haile_background.xml" value="0.165" />
+        <entry key="..\:/Users/user/Desktop/Uselogin/app/src/main/res/drawable/attach_file.xml" value="0.165" />
+        <entry key="..\:/Users/user/Desktop/Uselogin/app/src/main/res/drawable/custom_button.xml" value="0.165" />
+        <entry key="..\:/Users/user/Desktop/Uselogin/app/src/main/res/drawable/uog_logo_background.xml" value="0.165" />
+        <entry key="..\:/Users/user/Desktop/Uselogin/app/src/main/res/layout/activity_about.xml" value="0.2" />
+        <entry key="..\:/Users/user/Desktop/Uselogin/app/src/main/res/layout/activity_feed.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/Uselogin/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/user/Desktop/Uselogin/app/src/main/res/layout/activity_pdfactivity.xml" value="0.2" />
+        <entry key="..\:/Users/user/Desktop/Uselogin/app/src/main/res/layout/activity_reading.xml" value="0.22" />
+        <entry key="..\:/Users/user/Desktop/Uselogin/app/src/main/res/layout/prolayout.xml" value="0.5" />
+        <entry key="..\:/Users/user/Desktop/Uselogin/app/src/main/res/layout/shimmer_layout.xml" value="0.2" />
+        <entry key="..\:/Users/user/Desktop/Uselogin/app/src/main/res/layout/toolbar.xml" value="0.2" />
+        <entry key="..\:/Users/user/Desktop/Uselogin/app/src/main/res/menu/bottom_nav.xml" value="0.2" />
+        <entry key="..\:/Users/user/Desktop/Uselogin/app/src/main/res/menu/threedots_menu.xml" value="0.2" />
+        <entry key="..\:/Users/user/Desktop/Uselogin/app/src/main/res/mipmap-anydpi-v26/about_H.xml" value="0.165" />
+        <entry key="..\:/Users/user/Desktop/Uselogin/app/src/main/res/mipmap-anydpi-v26/about_haile.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Uselogin/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Uselogin/app/src/main/res/mipmap-anydpi-v26/uog_logo.xml" value="0.165" />
+        <entry key="..\:/Users/user/Desktop/Uselogin/app/src/main/res/mipmap-anydpi-v26/uog_logo_round.xml" value="0.165" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

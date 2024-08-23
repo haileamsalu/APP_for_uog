@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">IoT Pro</string>
+    <string name="app_Title">Student Pro</string>
+    <string name='thepro'>Thesis Project</string>
+    <string name="sempro">Semester Project</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="admin_page">Admin Page</string>
+    <string name="data_feeding">Data Feeding</string>
+    <string name="enter_the_title_of_thesis">Enter the Title of Project</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="user_name">User Name</string>
+    <string name="about_us">About Us</string>
+    <string name="login">Log In</string>
+    <string name="abstract_of_the_project">The abstract of the project</string>
+    <string name="upload_file">Upload File</string>
+    <string name="are_you_a_student">Are you a student?</string>
+    <string name="developers_string">More on developers</string>
+    <string name="about_us_String">This paper deals with a vital and important issue in computer Science world. It is concerned with the software development and management processes that examine the area of software development through the development models, which are known as software development life cycle. It represents five of the development models namely, waterfall, Iteration, V-shaped, spiral and Extreme programming. These models have advantages and disadvantages as well. Therefore, the main objective of this research is to represent different models of software development and to understand and show the features and defects of each model</string>
+    <string-array name="drop_down">
+        <item>Semester Project</item>
+        <item>Thesis Project</item>
+    </string-array>
+</resources>
